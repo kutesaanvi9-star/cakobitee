@@ -1,0 +1,160 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff9f5;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+}
+
+.logo{
+font-size:2rem;
+font-weight:700;
+color:#5c2d1e;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.cart{
+font-size:1.2rem;
+font-weight:600;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+url('https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1600&q=80');
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+margin-bottom:20px;
+}
+
+.hero button{
+padding:15px 30px;
+border:none;
+background:#8b4513;
+color:white;
+font-size:1rem;
+cursor:pointer;
+border-radius:30px;
+}
+
+.products{
+padding:100px 10%;
+}
+
+.products h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3,
+.card p{
+padding:10px;
+}
+
+.add-cart{
+margin:10px;
+padding:10px 20px;
+background:#8b4513;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:20px;
+}
+
+.about,
+.contact{
+padding:100px 10%;
+text-align:center;
+}
+
+.contact form{
+max-width:500px;
+margin:auto;
+}
+
+.contact input,
+.contact textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+}
+
+.contact button{
+padding:12px 25px;
+background:#8b4513;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+footer{
+background:#5c2d1e;
+color:white;
+padding:20px;
+text-align:center;
+}
